@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myProject.css">
+    <meta name="description" content="Dernek Yazılımı">
+    <meta name="keywords" content="Dernek Yazılımı">
+
+    <!-- Facebook Metadata Start -->
+    <meta property="og:image:height" content="300">
+    <meta property="og:image:width" content="573">
+    <meta property="og:title" content="Dernek Yazılımı">
+    <meta property="og:description" content="Dernek Yazılımı">
+    <meta property="og:url" content="https://menuolustur.com/">
+    <meta property="og:image" content="https://menuolustur.com/tema/genel/uploads/logo/ORNEK_DERNEK_LOGO_1.png">
+    <meta name="google-site-verification" content="77AqeY3dAjxcbc8sDqaDE7lhn0D2e9Babqrzn6I6Bsk">
+    <link rel="shortcut icon" href="https://menuolustur.com/tema/genel/uploads/favicon/ORNEK_LOGO_ORNEK_DERNEK_1.png">
+
+    <link rel="stylesheet" type="text/css" href="./Dernek Yazılımı_files/normalize.css">
+    <link rel="stylesheet" href="./Dernek Yazılımı_files/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Dernek Yazılımı_files/all.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script type="text/javascript" async="" src="./Dernek Yazılımı_files/js"></script>
+    <script async="" src="./Dernek Yazılımı_files/analytics.js.indir"></script>
+    <script src="./Dernek Yazılımı_files/jquery.min.js.indir"></script>
+    <script src="./Dernek Yazılımı_files/sweetalert2.all.min.js.indir"></script>
+
+    <style>
+        .social {
+            list-style: none;
+            padding: 0;
+        }
+        .social li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .social a {
+            color: #ffffff; 
+            text-decoration: none;
+        }
+        .social a:hover {
+            color: #007bff; 
+        }
+        .owl-carousel .owl-item {
+         text-align: center;
+        }
+        .owl-carousel .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        transition: transform 0.4s ease;
+        }
+        .owl-carousel .item:hover {
+        transform: scale(1.03);
+        }
+        .owl-carousel .item img {
+        max-width: 100%;
+        height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pos-f-t">
+        <nav class="navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <img class="navbar-image" src="tema/genel/uploads/logo/ORNEK_DERNEK_LOGO_1.png" alt="Logo">
+            </button>
+            <div class="menu-container">
+                <div class="menu-button" onclick="toggleMenu()">
+                    &#9776;
+                </div>
+                <div class="h3-div">
+                    <h3>
+                        Anasayfa
+                        <div class="hover-container1">
+                            <p>Content for Anasayfa</p>
+                        </div>
+                    </h3>
+                    <h3>
+                        Duyurular
+                        <div class="hover-container1">
+                            <p>Content for Duyurular</p>
+                        </div>
+                    </h3>
+                    <h3>
+                        Etkinlikler
+                        <div class="hover-container1">
+                            <p>Content for Etkinlikler</p>
+                        </div>
+                    </h3>
+                    <h3>
+                        Aidat Borcu Sorgulama
+                        <div class="hover-container1">
+                            <p>Content for Aidat Borcu Sorgulama</p>
+                        </div>
+                    </h3>
+                    <h3>
+                        Fotoğraf Galerisi
+                        <div class="hover-container1">
+                            <p>Content for Fotoğraf Galerisi</p>
+                        </div>
+                    </h3>
+                    <h3>
+                        İletişim Formu
+                        <div class="hover-container1">
+                            <p>Content for İletişim Formu</p>
+                        </div>
+                    </h3>
+                </div>
+            </div>
+            
+        </nav>
+        
+    </div>
+    
+    <div class="carousel-image">
+        <div>
+            <div id="carousel-container3">
+                <button id="prevvvBtn"><</button>
+                <div id="owl-demo3" class="owl-carousel owl-theme">
+                    <div class="item first-slider-image">
+                        <a><img src="./tema/genel/uploads/slider/DJI_0982.jpg" alt="Image 1"></a>
+                    </div>
+                    <div class="item first-slider-image">
+                        <a><img src="./tema/genel/uploads/slider/DJI_0982.jpg" alt="Image 2"></a>
+                    </div>
+                    <div class="item first-slider-image">
+                        <a><img src="./tema/genel/uploads/slider/DJI_0982.jpg" alt="Image 3"></a>
+                    </div>
+                    <div class="item first-slider-image">
+                        <a><img src="./tema/genel/uploads/slider/DJI_0982.jpg" alt="Image 4"></a>
+                    </div>
+                </div>
+                <button id="nextttBtn">></button>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-container-item" style="background-color: #762e74e8;">
+            <i class="far fa-newspaper"></i>
+            <div>
+                <h3>HABERLER</h3>
+                <p>Tüm Haberleri İnceleyin</p>
+            </div>
+        </div>
+        <div class="grid-container-item" style="background-color: #30395be8;">
+            <i class="far fa-calendar-alt"></i>
+            <div>
+                <h3>ETKİNLİKLER</h3>
+                <p>Tüm Etkinlikleri İnceleyin</p>
+            </div>
+        </div>
+        <div class="grid-container-item" style="background-color: #645a39e8;">
+            <i class="fas fa-tasks"></i>
+            <div>
+                <h3>PROJELER</h3>
+                <p>Tüm Projeleri İnceleyin</p>
+            </div>
+        </div>
+        <div class="grid-container-item" style="background-color: #934c4de8;">
+            <i class="fas fa-images"></i>
+            <div>
+                <h3>FOTOĞRAF GALERİ</h3>
+                <p>Tüm Fotoğrafları İnceleyin</p>
+            </div>
+        </div>
+        <div class="grid-container-item" style="background-color: #8a8751e8; justify-content: center;">
+            <i class="fas fa-video"></i>
+            <div>
+                <h3>VİDEO GALERİ</h3>
+                <p>Tüm Videoları İnceleyin</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+		<div class="row haber-section">
+
+			
+						<div class="col-lg-6 p-0">
+				<div id="haberSlide" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+																	<div class="carousel-item">
+							<a class="a-carousel" href="haber/mustafakemalpaşa-belediyesi-nde-yeni-yapılanma-işte-yeni-organizasyon-şeması">
+								<img src="tema/genel/uploads/haberler/beeldiye.jpeg" data-src="tema/genel/uploads/haberler/beeldiye.jpeg" class="d-block w-100 lazy">
+								<div class="slide-overlay"></div>
+
+								<div class="content col-10 mx-auto">
+									<h3 class="font-weight-bold">Mustafakemalpaşa Belediyesi'nde Yeni Yapılanma: İşte Yeni Organizasyon Şeması!</h3>
+									<p class="context">
+										Şükrü Erdem'in belediye başkanlığı göreve başlamasıyla birlikte, belediyede görev dağılımı merak konusu olmuştu. İlk olarak özel kalem müdürlüğüne Emnanım Argın atanmıştı. Bayram tatilinin ardından Derya Deniz Kanar ve Nail Kalkandeler yeni başkan yardımcıları olarak göreve başladılar.									</p>
+									<p class="text-right">19 Nisan 2024, 12:29</p>
+								</div>
+							</a>
+						</div>
+												<div class="carousel-item">
+							<a class="a-carousel" href="haber/mustafakemalpaşa-da-kumkadı-geleneği-devam-etti">
+								<img src="tema/genel/uploads/haberler/KUMKADI-IFTAR-GELENEGINI-YASATTI-1.jpg" data-src="tema/genel/uploads/haberler/KUMKADI-IFTAR-GELENEGINI-YASATTI-1.jpg" class="d-block w-100 lazy">
+								<div class="slide-overlay"></div>
+
+								<div class="content col-10 mx-auto">
+									<h3 class="font-weight-bold">Mustafakemalpaşa ' da Kumkadı Geleneği Devam Etti</h3>
+									<p class="context">
+										Mustafakemalpaşa'nın merkezine 17 kilometre uzaklıkta bulunan kırsal Kumkadı Mahallesi'nde Geleneksel Sokak İftarları, bu Ramazan'da da geniş katılımla gerçekleşti.									</p>
+									<p class="text-right">19 Nisan 2024, 14:07</p>
+								</div>
+							</a>
+						</div>
+												<div class="carousel-item">
+							<a class="a-carousel" href="haber/mustafakemalpaşaspor-altınova-belediyespor-maçına-tam-donanımlı-bir-şekilde-hazırlanıyor">
+								<img src="tema/genel/uploads/haberler/takim.jpg" data-src="tema/genel/uploads/haberler/takim.jpg" class="d-block w-100 lazy">
+								<div class="slide-overlay"></div>
+
+								<div class="content col-10 mx-auto">
+									<h3 class="font-weight-bold">Mustafakemalpaşaspor, Altınova Belediyespor maçına tam donanımlı bir şekilde hazırlanıyor.</h3>
+									<p class="context">
+										Bölgesel Amatör Lig'de mücadele eden Mustafakemalpaşaspor Belediye, ligin ikinci haftasında evinde Altınova Belediyespor ile karşılaşacak. Kırmızı Şimşekler, ilk hafta deplasmanda Karasuspor'u 2-1 yenerek lige iyi bir başlangıç yaptı. Şimdi ise hedef, sahasında da 3 puan almak.									</p>
+									<p class="text-right">19 Nisan 2024, 13:30</p>
+								</div>
+							</a>
+						</div>
+												<div class="carousel-item active">
+							<a class="a-carousel" href="haber/mustafakemalpaşa-da-sevilen-mahalle-davulcusu-muhtarlık-seçimlerinde-büyük-destek-gördü-ve-muhtar-seçildi">
+								<img src="tema/genel/uploads/haberler/Indir-3.jpg" data-src="tema/genel/uploads/haberler/Indir-3.jpg" class="d-block w-100 lazy">
+								<div class="slide-overlay"></div>
+
+								<div class="content col-10 mx-auto">
+									<h3 class="font-weight-bold">Mustafakemalpaşa'da sevilen mahalle davulcusu, Muhtarlık seçimlerinde büyük destek gördü ve muhtar seçildi.</h3>
+									<p class="context">
+										Mustafakemalpaşa'da muhtarlık seçimleri tamamlandı ve oyların büyük çoğunluğu sayıldı. Özellikle kırsal bölgelerde nüfusun az olması sebebiyle sayımlar hızlı bir şekilde sonuçlandı.									</p>
+									<p class="text-right">19 Nisan 2024, 13:49</p>
+								</div>
+							</a>
+						</div>
+											</div>
+					<a class="carousel-control-prev" href="#haberSlide" role="button" data-slide="prev">
+						<
+						<span class="sr-only">Önceki</span>
+					</a>
+					<a class="carousel-control-next" href="#haberSlide" role="button" data-slide="next">
+						>
+						<span class="sr-only">Sonraki</span>
+					</a>
+					<ol class="carousel-indicators">
+																	<li data-target="#haberSlide" data-slide-to="0" class="">1</li>
+												<li data-target="#haberSlide" data-slide-to="1" class="">2</li>
+												<li data-target="#haberSlide" data-slide-to="2" class="">3</li>
+												<li data-target="#haberSlide" data-slide-to="3" class="active">4</li>
+											</ol>
+
+				</div>
+			</div>
+						
+						<div class="col-lg-6 diger-haberler position-relative">
+				<div class="row image-grid">
+														<div class="col-6 col-md-6 col-lg-6 p-0">
+						<a href="haber/mustafakemalpaşa-belediyesi-nde-yeni-yapılanma-işte-yeni-organizasyon-şeması">
+							<div class="slide-overlay"></div>
+							<img src="tema/genel/uploads/haberler/beeldiye.jpeg" data-src="tema/genel/uploads/haberler/beeldiye.jpeg" class="lazy">
+							<div class="content">
+								<p>19 Nisan 2024, 12:29</p>
+								<h3>Mustafakemalpaşa Belediyesi'nde Yeni Yapılanma: İşte Yeni Organizasyon Şeması!</h3>
+							</div>
+						</a>
+					</div>
+										<div class="col-6 col-md-6 col-lg-6 p-0">
+						<a href="haber/mustafakemalpaşa-da-kumkadı-geleneği-devam-etti">
+							<div class="slide-overlay"></div>
+							<img src="tema/genel/uploads/haberler/KUMKADI-IFTAR-GELENEGINI-YASATTI-1.jpg" data-src="tema/genel/uploads/haberler/KUMKADI-IFTAR-GELENEGINI-YASATTI-1.jpg" class="lazy">
+							<div class="content">
+								<p>19 Nisan 2024, 14:07</p>
+								<h3>Mustafakemalpaşa ' da Kumkadı Geleneği Devam Etti</h3>
+							</div>
+						</a>
+					</div>
+										<div class="col-6 col-md-6 col-lg-6 p-0">
+						<a href="haber/mustafakemalpaşaspor-altınova-belediyespor-maçına-tam-donanımlı-bir-şekilde-hazırlanıyor">
+							<div class="slide-overlay"></div>
+                            <div>
+                                <img src="tema/genel/uploads/haberler/takim.jpg" data-src="tema/genel/uploads/haberler/takim.jpg" class="lazy">
+							<div class="content">
+								<p>19 Nisan 2024, 13:30</p>
+								<h3>Mustafakemalpaşaspor, Altınova Belediyespor maçına tam donanımlı bir şekilde hazırlanıyor.</h3>
+							</div>
+                            </div>
+							
+						</a>
+					</div>
+										<div class="col-6 col-md-6 col-lg-6 p-0">
+						<a href="haber/mustafakemalpaşa-da-sevilen-mahalle-davulcusu-muhtarlık-seçimlerinde-büyük-destek-gördü-ve-muhtar-seçildi">
+							<div class="slide-overlay"></div>
+							<img src="tema/genel/uploads/haberler/Indir-3.jpg" data-src="tema/genel/uploads/haberler/Indir-3.jpg" class="lazy">
+							<div class="content">
+								<p>19 Nisan 2024, 13:49</p>
+								<h3>Mustafakemalpaşa'da sevilen mahalle davulcusu, Muhtarlık seçimlerinde büyük destek gördü ve muhtar seçildi.</h3>
+							</div>
+						</a>
+					</div>
+									</div>
+
+				
+			</div>
+						
+		</div>
+	</div>
+    <section class="slider-section">
+    <div class="owl-first owl-carousel owl-theme">
+        <div class="item">
+          <img src="./tema/genel/uploads/projeler/ORNEK_DERNEK_7.png" alt="Image 1">
+          <div>
+          <p>Yeşil Mahalle projesi, çevresel sürdürülebilirlik ve topluluk bağlarını güçlendirme amacıyla tasarlanmış bir inisiyatiftir. Bu proje, mahalle sakinlerinin çevre bilinci geliştirmesine, doğal kaynakları korumasına ve birlikte yaşama kültürünü güçlendirmesine yardımcı olmayı hedefler.</p>
+            </div>
+        </div>
+        <div class="item">
+          <img src="./tema/genel/uploads/projeler/ORNEK_DERNEK_5.png" alt="Image 2">
+          <div>
+          <p>Engelsiz Eğitim Kütüphanesi projesi, engelli bireylerin eğitim ve öğrenim süreçlerine destek olmayı amaçlar. Proje kapsamında, engelli bireylere erişilebilir eğitim materyalleri sunularak öğrenme olanakları genişletilecek ve bilgiye erişimde eşitlik sağlanacaktır.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./tema/genel/uploads/projeler/ORNEK_DERNEK_8.png" alt="Image 3">
+          <div>
+            <p>Eğitimde Fırsat Eşitliği projesi, dezavantajlı bölgelerdeki çocuklara eğitimde fırsat eşitliği sağlamayı amaçlayan bir sosyal sorumluluk projesidir. Proje, ekonomik veya sosyal sebeplerden dolayı eğitim imkanlarından yoksun olan çocuklara destek olmayı ve potansiyellerini geliştirmeyi hedefler.</p>
+          </div>
+          
+        </div>
+      </div>
+      <section class="baskan-section" style="background: url('tema/genel/uploads/arkaplan/arkaplan2/hYzlY_ve_karadenIYzLIY_2.png');">
+        <div class="container">
+            <div class="row mb-5 mb-md-0">
+                <div class="col-md-8 sol">
+                    <div class="text-side">
+                        <h3 class="g-title">Adınız Soyadınız</h3>
+                        <p>DERNEK BAŞKANI ÖRNEK SLOGAN</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img class="lazy" src="./tema/genel/uploads/baskan/1.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      <div id="carousel-container">
+        
+        <button id="prevBtn"><</button>
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item" style="background: #92cbdc;">
+                <i class="far fa-newspaper"></i>
+                <div>
+                    <h1>Haberler</h1>
+                    <p style="background-color: black; color: white;">Tüm haberleri inceleyin</p>
+                </div></div>
+            <div class="item" style="background: #5d90c7;"><i class="fas fa-images"></i>
+                <div>
+                    <h1>Foto Galeri</h1>
+                    <p style="background-color: black; color: white;">Tüm haberleri inceleyin</p>
+                </div></div>
+            <div class="item" style="background: #dfc2b7;"><i class="far fa-bell"></i>
+                <div>
+                    <h1>Güncel Duyurular</h1>
+                    <p style="background-color: black; color: white;">Tüm haberleri inceleyin</p>
+                </div></div>
+            <div class="item" style="background: #c2adcd;"><i class="fas fa-tasks"></i>
+                <div>
+                    <h1>Aidat Sorgulama</h1>
+                    <p style="background-color: black; color: white;">Tüm haberleri inceleyin</p>
+                </div></div>
+            <div class="item" style="background: #da8472;"><i class="fas fa-video"></i>
+                <div>
+                    <h1>Video Galeri</h1>
+                    <p style="background-color: black; color: white;">Tüm haberleri inceleyin</p>
+                </div></div>
+            <div class="item" style="background: #e9bb71;"><i class="far fa-calendar-alt"></i>
+                <div>
+                    <h1>Etkinlikler</h1>
+                    <p style="background-color: black; color: white;">Tüm haberleri inceleyin</p>
+                </div></div>
+            <div class="item" style="background: #9883a9;"><i class="fas fa-tasks"></i>
+                <div>
+                    <h1>Projeler</h1>
+                    <p style="background-color: black; color: white;">Tüm haberleri inceleyin</p>
+                </div></div>
+            
+        </div>
+        <button id="nextBtn">></button>
+    </section>
+    <section class="duyuru-section">
+        <div class="duyuru-parent-flex">
+        
+        
+            <div class="duyuru-d-flex">
+                <div class="duyuru-d-flex-child">
+                    <div>
+                        <h1 id="güncel-duyuru">Güncel Duyurular</h1>
+                    </div>
+                    <div>
+                        <h1 id="güncel-ihaleler">Güncel İhaleler</h1>
+                    </div>
+                    <div>
+                        <h1 id="güncel-etkinlikler">Güncel Etkinlikler</h1>
+                    </div>
+                </div>
+                <div id="duyuruDiv">
+                    <div class="duyuru-item short-border-left">
+                        <h1>2020 - 2024 Stratejik Plan Hazırlık ve Zaman porgramı</h1>
+                        <p>24 Ocak 2020, 09:39</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Dernek Toplanma 22.01.2020</h1>
+                        <p>23 Ocak 2020, 09:38</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>22.01.2020 Dernek Üyelerimize Duyuru</h1>
+                        <p>23 Ocak 2020, 09:38</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Dernek Gelişmeleri</h1>
+                        <p>19 Ocak 2020, 09:38</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Yönetim Kurulu Toplantısı</h1>
+                        <p>15 Ocak 2020, 09:39</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Tüm dernek üyelerimizin Dikkatine Önemli Duyuru</h1>
+                        <p>07 Ocak 2020, 09:39</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Köy yollarının onarımı ve tamiratı yapılacaktır.</h1>
+                        <p>17 Ocak 2020, 09:39</p>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="image-div">
+                <div id="carousel-container2">
+        
+                    <button id="prevvBtn"><</button>
+                    <div id="owl-demo2" class="owl-carousel owl-theme">
+                        <div class="image-item">
+                            
+                            
+                                <img src="./tema/genel/uploads/fotogaleri/diger/1571316829_esnaf.ziyaret2.jpg" alt="">
+                                <div class="image-item-text">
+
+                                
+                                <h1>Haberler</h1>
+                                <p>Tüm haberleri inceleyin</p>
+                            </div>
+                            </div>
+                        <div class="image-item">
+                            
+                                <img src="./tema/genel/uploads/fotogaleri/diger/baskan_vergiliye_ziyaretler.jpg" alt="">
+                                <div class="image-item-text">
+                                    <h1>Foto Galeri</h1>
+                                    <p>Tüm haberleri inceleyin</p>
+                                </div>
+                                
+                            
+                        </div>
+                        <div class="image-item">
+                            
+                                <img src="./tema/genel/uploads/fotogaleri/diger/tekdeistanbul_4.jpg" alt="">
+                                <div class="image-item-text">
+                                    <h1>Güncel Duyurular</h1>
+                                    <p>Tüm haberleri inceleyin</p>
+                                </div>
+                                
+                            </div>
+                        <div class="image-item">
+                            
+                                <img src="./tema/genel/uploads/fotogaleri/diger/2838ec8e62f927da39943e891f2c598d.jpg" alt="">
+                                <div class="image-item-text">
+                                    <h1>Aidat Sorgulama</h1>
+                                    <p>Tüm haberleri inceleyin</p>
+                                </div>
+                                
+                            </div>
+                    
+            </div>
+            <button id="nexttBtn">></button>
+        </div>
+        
+    </section>
+    <section class="bize-ulasin">
+        <div class="bize-ulasin-d-flex">
+            <div class="d-flex-child">
+                
+                <div>
+                    <h4>GÖRÜŞ VE ÖNERİ</h4>
+                    <h2>Bize Ulaşın</h2>
+                    <p>İlçemiz ve Belediyemiz ile ilgili her türlü görüş ve önerileriniz için lütfen iletişime geçiniz.</p>
+                </div>
+                <div>
+                    <div class="icon-divs">
+                        <div>
+                            <i class="fas fa-phone-volume"></i>
+                        </div>
+                        <p>0 (530) 702 32 00</p>
+                    </div>
+                    <div class="icon-divs">
+                        <div>
+                            <i class="fas fa-fax"></i>
+                        </div>
+                        <p>0 (530) 702 32 00</p>
+                    </div>
+                    <div class="icon-divs">
+                        <div>
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <p>info@dernekyazilimi.com</p>
+                    </div>
+                    <div class="icon-divs">
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p>Bursa/Mustafakemalpaşa</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="form-div">
+
+            
+            <form action="">
+                <input type="text" name="adsoyad" placeholder="Adınız/ Soyadınız">
+                <div>
+                    <input type="email" name="mail" placeholder="Mail Adresiniz">
+                    <input type="number" placeholder="Telefon">
+                </div>
+                <input type="text" name="konu" placeholder="Mesaj Konusu">
+                <textarea type="text" name="mesaj" placeholder="Mesajınız"></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+            </div>
+        </div>
+    </section>
+    <div id="map"></div>
+    <footer class="hakkimizda-footer">
+        <div class="footer-div">
+            <div class="footer-flex-items">
+                <h2>Derneğimiz</h2>
+                <ul>
+                    <li class="li-item">Yönetim Kurulu</li>
+                    <li class="li-item">Kurucularımız</li>
+                    <li class="li-item">Üyelerimiz</li>
+                    <li class="li-item">Banka Hesap Numaralarımız</li>
+                    <li class="li-item">Yazarlarımız</li>
+                    <li class="li-item">Kan Bankası</li>
+                    <li class="li-item">Etkinlikler</li>
+                    <li class="li-item">Foto Galeri</li>
+                    <li class="li-item">Video Galeri</li>
+                </ul>
+                
+            </div>
+            <div class="footer-flex-items">
+                
+
+                
+                <h2>İlçemiz</h2>
+                <ul>
+                    <li class="li-item">Bizden Haberler</li>
+                    <li class="li-item">Vefat Edenler</li>
+                    <li class="li-item">Etkinlik Tarihleri</li>
+                    <li class="li-item">Mahallelerimiz</li>
+                    <li class="li-item">Muhtarlarımız</li>
+                    <li class="li-item">Gezilecek Yerlerimiz</li>
+                    <li class="li-item">Tarihçemiz</li>
+                    <li class="li-item">İlimiz Hakkında</li>
+                    <li class="li-item">İlçemiz Hakkında</li>
+                </ul>
+            
+            </div>
+            <div class="footer-flex-items">
+                <h2>Derneğimiz Hakkında</h2>
+                <ul>
+                    <li class="li-item">Derneğimizin Tarihçesi</li>
+                    <li class="li-item">Derneğimizin Tüzüğü</li>
+                    <li class="li-item">Dernek Kurallarımız</li>
+                </ul>
+            </div>
+            <div class="footer-flex-items">
+                <h2>Kent Rehberi</h2>
+                <ul>
+                    <li class="li-item">Tarihçe</li>
+                    <li class="li-item">El Sanatları</li>
+                    <li class="li-item">Av Turızmi</li>
+                    <li class="li-item">Kültürel Zenginlik</li>
+                    <li class="li-item">Kentsel Doku</li>
+                    <li class="li-item">Doğal Güzellikler</li>
+                </ul>
+            </div>
+            <div class="footer-social-flex">
+                <h2>İletişime Geçin</h2>
+                <p style="color: white;">0 (530) 702 32 00</p>
+                <ul class="footer-social">
+                    
+                    <li><a title="facebook" href="https://www.facebook.com/dernekyazilimi"><i
+                                class="fab fa-facebook-f"></i></a></li>
+                    <li><a title="telegram" href="https://twitter.com/?lang=tr"><i
+                                class="fab fa-twitter"></i></a></li>
+                    <li><a title="instagram" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li><a title="linkedin" href="https://tr.linkedin.com/"><i
+                                class="fab fa-linkedin-in"></i></a></li>
+                    <li><a title="youtube" href="https://www.youtube.com/?hl=tr&amp;gl=TR"><i
+                                class="fab fa-youtube"></i></a></li>
+                                
+                </ul>
+                
+            </div>
+            
+        </div>
+    </footer>
+    <div class="sakli-haklar">
+        <p>Dernek Yazilimi © Tüm Hakları Saklıdır.</p>
+    </div>
+    </div>
+    
+      
+      
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkJzP6Xebnm3hg1y61wCcpbktKzIqj24w&callback=initMap&libraries=&v=weekly" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+
+        
+         $(document).ready(function(){  
+            $('.h3-div h3').hover(
+                function() {
+                    $(this).find('.hover-container').stop(true, true).slideDown('fast');
+                }, 
+                function() {
+                    $(this).find('.hover-container').stop(true, true).slideUp('fast');
+                }
+            );
+        });
+        function initMap() {
+            
+            const location = { lat: 40.0388, lng: 28.4084 };
+            
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: location,
+            });
+            
+            const marker = new google.maps.Marker({
+                position: location,
+                map: map,
+            });
+        }
+
+        $(document).ready(function(){
+        $(".owl-first").owlCarousel({
+            center: true,
+            items: 3,
+            loop: true,
+            margin: 10,
+            padding: 10,
+
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                1080: {
+                    items: 1
+                },
+                1081: {
+                    items: 3
+                }
+            }
+        });
+        });
+        $(document).ready(function(){
+        var owl = $("#owl-demo").owlCarousel({
+            items: 5,
+            loop: true,
+            margin: 10,
+            responsive:{
+                0:{
+                    items:1
+                },
+                750:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        });
+
+        
+        $("#nextBtn").click(function(){
+            owl.trigger('next.owl.carousel');
+        });
+        $("#prevBtn").click(function(){
+            owl.trigger('prev.owl.carousel');
+        });
+    });
+    $(document).ready(function(){
+        var owl = $("#owl-demo2").owlCarousel({
+            items: 5, 
+            loop: true,
+            margin: 10,
+            responsive:{
+                0:{
+                    items:1
+                },
+                750:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                },
+                1500:{
+                    items:1
+                }
+            }
+        });
+
+        
+        $("#nexttBtn").click(function(){
+            owl.trigger('next.owl.carousel');
+        });
+        $("#prevvBtn").click(function(){
+            owl.trigger('prev.owl.carousel');
+        });
+    });
+    $(document).ready(function(){
+            var owl = $("#owl-demo3").owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                nav: false,
+                dots: false
+            });
+
+            $("#nextttBtn").click(function(){
+                owl.trigger('next.owl.carousel');
+            });
+            $("#prevvvBtn").click(function(){
+                owl.trigger('prev.owl.carousel');
+            });
+        });
+        
+
+    const duyuru = document.getElementById('güncel-duyuru')
+    const ihale = document.getElementById('güncel-ihaleler')
+    const duyuruDiv = document.getElementById('duyuruDiv');
+    const etkinlik = document.getElementById('güncel-etkinlikler')
+
+    duyuru.addEventListener('click', () => {
+        duyuruDiv.innerHTML = `
+                <div class="duyuru-item short-border-left">
+                        <h1>2020 - 2024 Stratejik Plan Hazırlık ve Zaman porgramı</h1>
+                        <p>24 Ocak 2020, 09:39</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Dernek Toplanma 22.01.2020</h1>
+                        <p>23 Ocak 2020, 09:38</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>22.01.2020 Dernek Üyelerimize Duyuru</h1>
+                        <p>23 Ocak 2020, 09:38</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Dernek Gelişmeleri</h1>
+                        <p>19 Ocak 2020, 09:38</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Yönetim Kurulu Toplantısı</h1>
+                        <p>15 Ocak 2020, 09:39</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Tüm dernek üyelerimizin Dikkatine Önemli Duyuru</h1>
+                        <p>07 Ocak 2020, 09:39</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Köy yollarının onarımı ve tamiratı yapılacaktır.</h1>
+                        <p>17 Ocak 2020, 09:39</p>
+                    </div>
+        `
+    })
+
+    ihale.addEventListener('click', () => {
+        duyuruDiv.innerHTML = `
+                    <div class="duyuru-item short-border-left">
+                        <h1>6 kalem Muhtelif Bitki Alımı</h1>
+                        <p>2020 Ocak 22, 17:42</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Çim Biçimi, Yabancı Ot Temizliği ile Çanak Yapılması</h1>
+                        <p>2020 Ocak 20, 10:00</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Örnek Derken İhalesi</h1>
+                        <p>2020 Ocak 18, 12:30</p>
+                    </div>
+                    <div class="duyuru-item short-border-left">
+                        <h1>Derneğimize Ait Hizmet Alanlarında Taş Tamiratı ve Döşemesi İşi</h1>
+                        <p>2020 Ocak 19, 12:10</p>
+                    </div>
+        
+        `
+    })
+    etkinlik.addEventListener('click', () => {
+        duyuruDiv.innerHTML = `
+                    <div class="duyuru-item short-border-left">
+                        <h1>Örnek Dernek Etkinliği</h1>
+                        <p>2020 Ocak 22, 17:42</p>
+                    </div>
+                    
+        
+        `
+    })
+    function toggleMenu() {
+    const menu = document.querySelector('.h3-div');
+    menu.classList.toggle('show');
+    }
+
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
